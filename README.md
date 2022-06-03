@@ -18,13 +18,15 @@ hobbies: ~
 
 #Add mutliline String
 
-multiline-string: |-
+multiline-string: |
   this is multiline
   String i am
   writing just to
   show you there.
 
-singleline-string: >+
+#Add Singleline String 
+
+singleline-string: >
   this is single
   line string which
   will display in
@@ -32,7 +34,8 @@ singleline-string: >+
   no matter i am 
   writing this in
   a multiline.
-  #Let me create Arrays or Lists for you.
+  
+#Let me create Arrays or Lists for you.
 ---
 items: [1, 2, 3, 4, 5]
 names: ["one", "two", "three", "four"]
@@ -63,3 +66,8 @@ items:
 
 #dictionaries
 dict: { key:value, key1:value1, key2:value2 }
+
+Useful Sites to validate you YAML doc: 
+https://codebeautify.org/yaml-validator
+https://www.json2yaml.com/
+http://www.yamllint.com/
